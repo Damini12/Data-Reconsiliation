@@ -1,0 +1,68 @@
+{
+  "name": "webautomation",
+  "description": "Blank Process",
+  "main": "WebAutomationDemo.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.10.3-preview]",
+    "UiPath.Jira.Activities": "[2.2.0]",
+    "UiPath.Mail.Activities": "[1.10.3-preview]",
+    "UiPath.System.Activities": "[21.4.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c9ecd0cc-7cf2-429f-a798-7090d4898aac",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "WebAutomationDemo.xaml",
+      "uniqueId": "d723c79c-886f-464a-883c-2ddd3b12a5d0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ResetTestData.xaml",
+      "uniqueId": "a587be95-06d4-4488-8025-e1f629c434c7",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
