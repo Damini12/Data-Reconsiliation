@@ -1,19 +1,18 @@
 {
-  "name": "webautomation",
+  "name": "Data Reconciliation Demo",
   "description": "Blank Process",
-  "main": "WebAutomationDemo.xaml",
+  "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.10.3-preview]",
-    "UiPath.Jira.Activities": "[2.2.0]",
-    "UiPath.Mail.Activities": "[1.10.3-preview]",
-    "UiPath.PDF.Activities": "[3.4.0]",
-    "UiPath.System.Activities": "[21.4.0-preview]",
-    "UiPath.UIAutomation.Activities": "[20.4.1]"
+    "UiPath.Amazon.Scope.Activities": "[1.1.0]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.5]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.4.0.0",
+  "studioVersion": "21.4.4.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -39,25 +38,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "c9ecd0cc-7cf2-429f-a798-7090d4898aac",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "WebAutomationDemo.xaml",
-      "uniqueId": "d723c79c-886f-464a-883c-2ddd3b12a5d0",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "ResetTestData.xaml",
-      "uniqueId": "a587be95-06d4-4488-8025-e1f629c434c7",
+      "uniqueId": "f05ef6f2-5649-4a90-8a0f-5b2387d90f4f",
       "input": [],
       "output": []
     }
